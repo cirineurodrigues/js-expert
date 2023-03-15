@@ -1,0 +1,23 @@
+[
+  {
+    "id": "f7d0cdfc-73fe-481f-a786-da4f57bb8d2b",
+    "name": "Accord",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "e5ebcae1-cf8e-4517-b879-14a5f17a88e1",
+    "name": "Model T",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "69b28843-55cb-4fd9-bd70-00ddd5cf400e",
+    "name": "Volt",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  }
+]
