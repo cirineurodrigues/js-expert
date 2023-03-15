@@ -6,13 +6,10 @@ class CarService {
   constructor({ cars }) {
     this.carRepository = new BaseRepository({ file: cars });
     this.taxesBasedOnAge = Tax.taxesBasesOnAge;
-    this.currencyFormat = new Intl.NumberFormat(
-      "pt-br",
-      {
-        style: "currency",
-        currency: "BRL",
-      }.format(244.4)
-    );
+    this.currencyFormat = new Intl.NumberFormat("pt-br", {
+      style: "currency",
+      currency: "BRL",
+    });
   }
 
   getRandomPositionFromArray(list) {
